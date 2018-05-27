@@ -1,0 +1,24 @@
+{
+    "name": "tinker/beanstalk-queue",
+    "description": "message queue base beanstalkd",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tink",
+            "email": "qietingfy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tink\\Queue\\Beanstalk\\": "src/"
+        },
+        "classmap": ["src/Beanstalk.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tink\\Queue\\Beanstalk\\Tests\\": "tests/"
+        }
+    },
+    "require": {}
+}
